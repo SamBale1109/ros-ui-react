@@ -37,7 +37,7 @@
   }
 }
 
-/* disable scrolling inside defined joystick area
+/* disable scrolling inside defined joystick area */
 .joystick-touch-area {
   touch-action: none;
 }
