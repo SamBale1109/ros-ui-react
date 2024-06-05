@@ -28,8 +28,9 @@ class SimJoystick extends Component {
 
   
       return (
-        <Joystick size={this.props.size*2} baseColor="CornflowerBlue" stickColor="blue" move={this.move} stop={this.stop} ></Joystick>
-
+        <div className="joystick-touch-area">
+          <Joystick size={this.props.size*2} baseColor="CornflowerBlue" stickColor="blue" move={this.move} stop={this.stop} />
+        </div>
   
       );
     }
