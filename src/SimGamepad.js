@@ -25,7 +25,7 @@ class SimGamepad extends Component {
     super(props);
     this.controllers = {};
     this.state = {
-      buttons: [0,0,0,0],
+      buttons: [0],
       axes: [0,0,0,0],
       sticks: [0,0]
     };
