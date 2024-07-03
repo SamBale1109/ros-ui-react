@@ -6,8 +6,8 @@ import './scss/style.scss';
 function SimGamepadDemo() {
   return (
     <div className="App">
-      <ImageStream src="http://192.168.2.145:8080/stream?topic=/camera/image_raw" />
-      <SimGamepad rosbridgeAddress="ws://192.168.2.145:9090"/>
+      <ImageStream src="http://192.168.2.139:8080/stream?topic=/camera/image_raw" />
+      <SimGamepad rosbridgeAddress="ws://192.168.2.139:9090"/>
     </div>
   );
 }
